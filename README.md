@@ -1,8 +1,8 @@
-##README: Micro:bit IoT Project
+#README: IoT_MBv2
 #Overview
 This project demonstrates a simple IoT application using two Micro:bit devices: one acting as a sender and the other as a receiver. The devices communicate using the Micro:bit's built-in radio functionality. Commands sent by the sender trigger specific actions on the receiver, such as toggling an LED, blinking another LED, or controlling a piezo buzzer with a potentiometer.
 
-##Components Used
+#Components Used
 Micro:bit (2 units) - One for sending commands, the other for receiving and controlling components.
 Kitronik Edge Connector Breakout Board - To interface the Micro:bit with external components.
 External Components:
@@ -13,7 +13,9 @@ Potentiometer
 Wires:
 Female-to-male wires for connections to the breakout board.
 Male-to-male wires for breadboard connections.
-##Functionality
+XOR Encryption
+
+#Functionality
 Sender Micro:bit:
 
 Toggles between sender and receiver mode using Button A.
